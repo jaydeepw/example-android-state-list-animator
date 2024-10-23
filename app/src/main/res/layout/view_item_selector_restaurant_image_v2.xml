@@ -13,9 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="75dp"
         app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:src="@android:drawable/zoom_plate" />
+        tools:src="@tools:sample/backgrounds/scenic"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!--
     Size warning: This item's size is 28dp x 28dp.
@@ -27,7 +28,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:backgroundTint="#FF0000"
-        android:scaleType="centerInside"
         android:src="@drawable/outline_clear_24"
         android:tint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
